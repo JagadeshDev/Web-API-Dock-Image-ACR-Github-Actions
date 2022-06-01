@@ -36,6 +36,6 @@ jobs:
           login-server: acrgithubactions.azurecr.io # default is https://index.docker.io/v1/
       - name: Build and Push the Docker image
         run:  | 
-         docker build ./ProductAPI -t acrgithubactions.azurecr.io/prodcutsapi:${{ github.run_id }}
+         docker build ./ProductAPI/ProductAPI -t acrgithubactions.azurecr.io/prodcutsapi:${{ github.run_id }}
          docker push acrgithubactions.azurecr.io/prodcutsapi:${{ github.run_id }} 
 
