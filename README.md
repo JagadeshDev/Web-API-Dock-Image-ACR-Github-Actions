@@ -1,7 +1,7 @@
 # Web-API-Dock-Image-ACR-Github-Actions
 
 Create necessary resources in the Azure
-```
+```PowerShell
 #Optional - This command is only necessary if you're using a local terminal
 az login
 
